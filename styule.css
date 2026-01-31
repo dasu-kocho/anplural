@@ -1,0 +1,48 @@
+/* Basic Reset */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(166,123,91,0.6);
+    padding: 20px;
+}
+
+/* Main Section */
+.zines {
+    margin: 50px auto;
+    background-color: rgba(200,173,127,0.5);
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.zines ul {
+    list-style: none;
+}
+
+.zines li {
+    margin: 15px 0;
+}
+
+.zines a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.zines a:hover {
+    text-decoration: underline;
+}
