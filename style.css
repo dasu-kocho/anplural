@@ -16,6 +16,7 @@ a:hover {
     max-width: 200px;   /* images will never be wider than 200px */
     width: 100%;        /* allows images to shrink if container is smaller */
     height: auto;       /* keeps aspect ratio */
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 4px;*/
+    margin: 10px;
 }
