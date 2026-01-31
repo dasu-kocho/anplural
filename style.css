@@ -11,3 +11,11 @@ a {
 a:hover {
     color: #66ff66; /* optional: lighter green on hover */
 }
+
+.poster-gallery img {
+    max-width: 200px;   /* images will never be wider than 200px */
+    width: 100%;        /* allows images to shrink if container is smaller */
+    height: auto;       /* keeps aspect ratio */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
